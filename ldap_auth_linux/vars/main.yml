@@ -1,0 +1,5 @@
+ldap_uri: ldap://10.0.2.6
+search_base: dc=example,dc=org
+rootbinddn: cn=admin,dc=example,dc=org
+pam_groupdn: cn=sysadmin,ou=group,dc=example,dc=org
+pam_member_attribute: memberUid
