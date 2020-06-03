@@ -27,6 +27,9 @@ so to apply ldap auth to all service we change the commen files.
 
 If you only want a spesific group of ldap to login, you need to change the pam config files, otherwise you will not be able to login with local users.
 
+reset chache    sudo nscd --invalidate=hosts
+restart       sudo /etc/init.d/nscd restart´   ||    service nscd restart
+
 ### Format
 
 http://linux-pam.org/Linux-PAM-html/sag-configuration-file.html

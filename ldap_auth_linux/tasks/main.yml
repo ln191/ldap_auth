@@ -1,0 +1,21 @@
+---
+- name: Copy commen pam config 
+  copy:
+    src: ../files/{{ item }}
+    dest: /etc/pam.d/{{ item }}
+    owner: root
+    group: root
+    mode: '0644'
+  loop:
+    - common-account
+    - common-auth
+    - common-password
+    - common-session
+
+- name: Template a file to /etc/ldap.conf
+  template:
+    src: ../templates/ldap.conf.j2
+    dest: /etc/ldap.conf
+    owner: root
+    group: root
+    mode: '0644'
