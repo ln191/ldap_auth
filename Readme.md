@@ -8,6 +8,15 @@ https://www.techrepublic.com/article/how-to-authenticate-a-linux-client-with-lda
 
 ## Playbook
 
+## Files that will be change 
+
+| File                  |   Description                             |   Permission     |
+| ----                  |   -----------                             |   ----------     |
+|   /etc/ldap.conf      | Setting for ldap connects and search.     | root:root 0644   |
+|   /etc/pam.d/common-account | Login Account settings              | root:root 0644   |
+|   /etc/pam.d/common-auth    | Login Auth settings                 | root:root 0644   |
+
+
 
 ## LDAP conf
 

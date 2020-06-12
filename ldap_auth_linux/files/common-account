@@ -15,7 +15,7 @@
 
 # here are the per-package modules (the "Primary" block)
 # acct_expired=bad authtok_err=bad cred_expired=bad perm_denied
-account	[success=2  user_unknown=ignore authinfo_unavail=ignore new_authtok_reqd=done default=bad]	pam_ldap.so 
+account	[success=2  user_unknown=ignore authinfo_unavail=ignore new_authtok_reqd=done default=ignore]	pam_ldap.so 
 account	[success=1 new_authtok_reqd=ok ignore=ignore default=bad]	pam_unix.so try_first_pass 
 
 # here's the fallback if no module succeeds
