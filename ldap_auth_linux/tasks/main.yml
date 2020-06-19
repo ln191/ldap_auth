@@ -11,6 +11,7 @@
     - common-auth
     - common-password
     - common-session
+    - nsswitch.conf
 
 - name: Template a file to /etc/ldap.conf
   template:
