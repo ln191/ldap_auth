@@ -4,6 +4,9 @@
 ## Pre-requsid 
 
 install ldap clinet
+
+sudo apt-get install libnss-ldap libpam-ldap ldap-utils nscd -y
+
 https://www.techrepublic.com/article/how-to-authenticate-a-linux-client-with-ldap-server/
 
 ## Playbook
