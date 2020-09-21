@@ -1,7 +1,8 @@
 # Ldap Authentication on linux server
 
+# Working progress
 
-## Pre-requsid 
+## Pre-install 
 
 install ldap clinet
 
