@@ -1,6 +1,6 @@
 # Ldap Authentication on linux server
 
-# Working progress
+# Work in progress
 
 ## Pre-install 
 
